@@ -1,0 +1,36 @@
+Mobile website:
+
+I had to make some changes in mobile website design between the wireframe stage and build stage. The changes which I did with all the reasons are as follows:
+
+1. I changed the normal navigation menu to hamburger menu for more user interaction, styling and to save space.
+
+2. I removed the 'Social' option from contact details of the Hero text and kept only social media links in order to avoid duplicacy.
+
+3. I added 'About Me' section to the body of the resume which was missing in the wireframe.
+
+4. I gave two separate headings for Mission and Vision in place of one heading to give more clarity.
+
+5. I animated the 'Download' button for more animation and better User Experience (UX).
+
+6. I had to include and change the layout of the social media links in the footer in order to make the website more user friendly and fit the mobile layout.
+
+7. I added footer navigation menu for ease of use for the website visitor.
+
+One thing I learned from this practical is that professionalism is very important for companies as well as to give customers a friendly experience. Also, the mobile website should be easy to use and mobile friendly.
+
+Desktop website:
+
+I had to make some changes in desktop website design between the wireframe stage and build stage. The changes which I did with all the reasons are as follows:
+
+1. I had to change the position of Privacy Policy and Terms of Service links because the originally planned positions were not fitting the website design.
+
+2. I added new search functionality for the users to easily a particular keyword in the resume.
+
+3. I changed the background colour of the main navigation menu to match the search functionality background.
+
+4. I changed the backgroud colour of the animation attached to the 'Download' button for best user experience (UX).
+
+5. I edited the privacy text to make it more clear and precise.
+
+I learned from this practical that you have to be flexible in designing and building the website to have a professional looking  and a user friendly responsive desktop website.
+
