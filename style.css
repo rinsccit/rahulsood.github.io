@@ -174,12 +174,44 @@ html, body {
     color: #000000;
 }
 
+#dresume {
+    border-color:#FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:#F5F5F5;
+    padding: 6px;
+}
+
+.dresume-p {
+    text-align: justify;
+}
+
+#about {
+    border-color:#FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:#F5F5F5;
+    padding: 6px;
+}
+
 #about a {
     text-decoration: none;
     color: #000000;
 }
 
 .about-p {
+    text-align: justify; 
+}
+
+#mission {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#F5F5F5;
+    padding: 6px;
+}
+
+.mission-p {
     text-align: justify;
 }
 
@@ -192,9 +224,40 @@ html, body {
     font-size: 1px;
 }
 
+#skills {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#F5F5F5;
+    padding: 6px;
+}
+
+.skills-p {
+    text-align: justify;
+}
+
 #skills a {
     text-decoration: none;
     color: #000000;
+}
+
+/* #skills ol {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#F5F5F5;
+    padding: 6px;
+} */
+#vision {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:#F5F5F5;
+    padding: 6px;
+}
+
+.vision-p {
+    text-align: justify;
 }
 
 #vision a {
@@ -234,6 +297,24 @@ h1.lead {
 }
 
 h3.lead {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.leadt a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.leadwc a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.leadss a {
     font-size: 0.8rem;
     font-weight: bold;
     padding-bottom: 10px;
@@ -395,6 +476,17 @@ div .social {
     justify-content: end;
     align-items: center;
     height: 10px;
+}
+
+.social p {
+    padding-left: 290px;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .social p {
+        padding-left: 468px;
+    }
 }
 
 .discord {
