@@ -1,6 +1,9 @@
 .collapse {
     display: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .fixed-top {
     position:fixed;
@@ -16,6 +19,7 @@
     min-height: 50px;
     max-height: 100px;
     position: relative;
+    border: solid 1px;
 }
 
 nav {
@@ -178,20 +182,30 @@ html, body {
     border-color:#FFFFFF;
     border-radius: 10px;
     border-style: solid;
-    background-color:#F5F5F5;
-    padding: 6px;
+    background-color:#FFFFFF;
+    padding: 40px;
+    margin-bottom: 20px;
 }
 
 .dresume-p {
-    text-align: justify;
+    text-align: left;
+}
+
+#dresume p {
+    margin-top: 16px;
 }
 
 #about {
     border-color:#FFFFFF;
     border-radius: 10px;
     border-style: solid;
-    background-color:#F5F5F5;
-    padding: 6px;
+    background-color:#FFFFFF;
+    padding: 40px;
+    margin: 20px 0 40px 0;
+}
+
+#about p {
+    margin-top: 16px;
 }
 
 #about a {
@@ -200,19 +214,24 @@ html, body {
 }
 
 .about-p {
-    text-align: justify; 
+    text-align: left; 
 }
 
 #mission {
     border-color: #FFFFFF;
     border-style: solid;
     border-radius: 10px;
-    background-color:#F5F5F5;
-    padding: 6px;
+    background-color:#FFFFFF;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+#mission p {
+    margin-top: 16px;
 }
 
 .mission-p {
-    text-align: justify;
+    text-align: left;
 }
 
 #mission a {
@@ -228,12 +247,19 @@ html, body {
     border-color: #FFFFFF;
     border-style: solid;
     border-radius: 10px;
-    background-color:#F5F5F5;
-    padding: 6px;
+    background-color:#FFFFFF;
+    padding: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction:row;
 }
 
+/* #skills p {
+    margin-top: 16px;
+} */
+
 .skills-p {
-    text-align: justify;
+    text-align: left;
 }
 
 #skills a {
@@ -241,23 +267,42 @@ html, body {
     color: #000000;
 }
 
-/* #skills ol {
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-radius: 10px;
-    background-color:#F5F5F5;
-    padding: 6px;
-} */
+#skills li {
+    margin-bottom: 10px;
+}
+
+#skills ol {
+    margin-left: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+
+.skills-section {
+    flex: 1 1 30%;
+    margin-right: 20px;
+    margin-left: 7px;
+}
+
 #vision {
     border-color: #FFFFFF;
     border-style: solid;
     border-radius: 10px;
-    background-color:#F5F5F5;
-    padding: 6px;
+    background-color:#FFFFFF;
+    padding: 40px;
+    margin-bottom: 40px;
 }
 
 .vision-p {
-    text-align: justify;
+    text-align: left;
+}
+
+#vision p{
+    margin-top: 16px;
 }
 
 #vision a {
@@ -301,6 +346,10 @@ h3.lead {
     font-weight: bold;
     padding-bottom: 10px;
 }
+
+.leadsk, .leadt, .leadwc, .leadss {
+    font-size: 0px;
+  }
 
 .leadt a {
     font-size: 0.8rem;
@@ -385,19 +434,19 @@ header nav {
 
 /* Hero */
 .hero {
-    background-color: #eee;
+    background-color: #FFFFFF;/*#eee;*/
     margin-top: 1px;
 }
 
 .hero-content {
     position: relative;
-    background-color: #dddddd;
+    background-color: #FFFFFF;/* #dddddd */
     width: 100%;
     height: 200px;
     margin: 1rem 0;
     padding: 1rem;
-    border-bottom: 2px solid #ccc;
-    border-right: 2px solid #ccc;
+    /* border-bottom: 2px solid #ccc; */
+    /* border-right: 2px solid #ccc; */
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
@@ -411,16 +460,27 @@ header nav {
 
 main .container {
     flex-direction: row;
+    background-color: #51C8E6
 }
 
-section, aside {
+section {
     padding:0 1rem;
+    margin: 0;
 }
+
+/* .aside {
+    background-color: #E8C7C8;
+    padding-bottom: 10px;
+    margin: 0;
+    border-style: solid;
+    border-color:#FFFFFF;
+    border-radius: 10px;
+} */
 
 footer {
     background-color: black;
     color: white;
-    height: 150px;
+    height: 170px;
 }
 
 div .footer-social {
@@ -442,11 +502,21 @@ footer .container {
     }
 }
 
+#footer-menu {
+    margin-top: 20px;
+}
+
 #footer-menu a {
     color: white;
     text-decoration: none;
-    padding: .75rem .75rem;
+    padding: .60rem .60rem;
     
+}
+
+@media (min-width: 768px) {
+    #footer-menu a {
+        padding: 0.75rem 0.75rem;
+    } 
 }
 
 #footer-menu ul {
@@ -457,6 +527,7 @@ footer .container {
 
 #footer-menu a:hover {
     border-bottom: 1px solid white;
+   
 }
 
 div .social {
@@ -475,7 +546,8 @@ div .social {
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 10px;
+    height: 1px;
+    /* margin-bottom: 10px; */
 }
 
 .social p {
@@ -536,7 +608,7 @@ div .social {
     place-content: center;
     grid-auto-flow: column;
     gap: 40px;
-    background: #dddddd;
+    background: #FFFFFF;
     text-decoration: none;
     color: #000000;
 }
@@ -548,6 +620,7 @@ div .social {
     padding: .1em .6em;
     font-weight: bold;  
     border: 2px solid black;
+    background-color: #FFFFFF;
 }
 
 .copyright {
