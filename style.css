@@ -421,7 +421,7 @@ h3.lead {
 .c {
     font-size: 0.8rem;
     font-weight: bold;
-    padding-left: 3px;
+    padding-left: 0.01rem;
 }
 
 .leadwc {
