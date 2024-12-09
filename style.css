@@ -13,6 +13,7 @@ html {
     right: 0;
     left: 0;
     z-index: 1030;
+    margin: 0 auto;
 }
 
 #my-photo {
@@ -572,7 +573,8 @@ span {
 
 main .container {
     flex-direction: row;
-    background-color: #51C8E6
+    background-color: #51C8E6;
+    margin: 0 auto;
 }
 
 section {
