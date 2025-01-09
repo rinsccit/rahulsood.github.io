@@ -171,7 +171,6 @@ html, body {
     max-width: 30px;
     min-height: 30px;
     max-height: 60px;
-    padding-top: 50px;
 }
 
 .iimage {
@@ -179,14 +178,12 @@ html, body {
     max-width: 30px;
     min-height: 15px;
     max-height: 20px;
-    padding-top: 50px;
 }
 
 .fimage {
     min-width: 5px;
     min-height: 15px;
     max-height: 20px;
-    padding-top: 50px;
 }
 
 .dimage {
@@ -194,8 +191,15 @@ html, body {
     max-width: 20px;
     min-height: 5px;
     max-height: 20px;
-    padding-top: 50px;
+    color: #FFFFFF;
 }
+
+/* .smimage {
+    min-width: 5px;
+    max-width: 20px;
+    min-height: 5px;
+    max-height: 20px;
+} */
 
 #container {
     height: 100px;
@@ -588,15 +592,16 @@ section {
 footer {
     background-color: black;
     color: white;
-    height: 170px;
-    max-width: 1280px;
+    /* height: 170px;
+    max-width: 1280px; */
 }
 
 div .footer-social {
     max-width: 1280px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    padding-right: 5px;
 }
 
 footer .container {
@@ -640,32 +645,34 @@ footer .container {
 }
 
 /* Social div in the footer */
-div .social {
+/*div .social {
     justify-content:end;
-    align-items: center;
-    /* min-height: 30px; */
-}
+    align-items: center; 
+    
+    min-height: 30px;
+}*/
 
 @media (min-width: 768px) {
     div .social {
-        padding-left: 650px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
 .social div {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
-    height: 1px;
+    gap: 4px;
     /* margin-bottom: 10px; */
 }
 
 .social p {
-    padding-left: 290px;
-    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .social p {
         padding-left: 468px;
     }
@@ -682,18 +689,18 @@ div .social {
 }
 
 .facebook {
-    padding-right: 13px;
+padding-right: 13px;
 }
-
+*/
 @media (max-width: 768px) {
     .facebook {
         padding-right: 2px;
     }
 }
 
-.indeed {
-    padding-right: 10px;
-}
+/*.indeed {
+      padding-right: 10px;
+ }*/
 @media (max-width: 768px) {
     .indeed {
         padding-right: 0.1rem;
@@ -702,7 +709,7 @@ div .social {
 
 @media (max-width: 768px) {
     .linkedin {
-        padding: 0 0.7rem 0 0.01rem;
+        /* padding: 0 0.7rem 0 0.01rem; */
     }
 }
 
@@ -784,5 +791,4 @@ div .social {
 }
 
 .policies {
-    display: flex;
-}
+    display: flex;}
