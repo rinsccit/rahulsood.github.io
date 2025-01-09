@@ -645,12 +645,10 @@ footer .container {
 }
 
 /* Social div in the footer */
-/*div .social {
-    justify-content:end;
-    align-items: center; 
-    
-    min-height: 30px;
-}*/
+div .social {
+    justify-content:center;
+    align-items:center;
+}
 
 @media (min-width: 768px) {
     div .social {
@@ -663,7 +661,7 @@ footer .container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 4px;
+    gap: 15px;
     /* margin-bottom: 10px; */
 }
 
@@ -677,41 +675,31 @@ footer .container {
         padding-left: 468px;
     }
 }
-
-.discord {
-    padding-right: 19px;
-}
-
-@media (max-width: 768px) {
-    .discord {
-        padding-right: 10px;
-    }
-}
-
-.facebook {
-padding-right: 13px;
-}
 */
-@media (max-width: 768px) {
+.discord {
+    padding-right: 3px;
+}
+
+/* @media (max-width: 768px) {
     .facebook {
         padding-right: 2px;
     }
-}
+} */
 
 /*.indeed {
       padding-right: 10px;
  }*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .indeed {
         padding-right: 0.1rem;
     }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .linkedin {
-        /* padding: 0 0.7rem 0 0.01rem; */
+        padding: 0 0.7rem 0 0.01rem;
     }
-}
+} */
 
 /* Download button */
 .download {
